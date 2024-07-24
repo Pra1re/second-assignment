@@ -1,0 +1,1143 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Playwrite+BE+VLG:wght@100..400&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+*/
+.azeret-mono {
+    font-family: "Azeret Mono", monospace;
+}
+
+.calligraffitti-regular {
+    font-family: "Calligraffitti", cursive;
+    font-weight: 800;
+    font-size: 30px;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    opacity: 0.6;
+    font-weight: 400;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+
+    background: #000000;
+}
+
+.vi {
+    display: none;
+}
+
+/*
+.first-banner{
+    width: 100%;
+    height: 620px;
+    background: linear-gradient(180deg, #111111 0%, rgba(119, 119, 119, 0) 100%);
+    
+    padding-top: 40px;
+}
+*/
+.navbar img{
+    display: none;
+}
+.fbanner {
+    background: linear-gradient(180deg, #111111 0%, rgba(196, 195, 195, 0) 100%);
+
+
+    width: 100%;
+    padding-top: 30px;
+    margin-bottom: 80px;
+}
+
+.fbanner-content-size {
+    margin: auto;
+    width: 82%;
+}
+
+.special-button button {
+    background-color: rgba(104, 104, 104, 0.434);
+
+    backdrop-filter: blur(8px);
+
+
+}
+
+.image {
+    position: relative;
+}
+
+.fbanner-btn1,
+.fbanner-btn2 {
+
+    position: absolute;
+    border-radius: 8px;
+    border: 1px solid rgba(128, 128, 128, 0.196);
+    
+    width: 160px;
+    height: 80px;
+
+
+}
+
+.fbanner-btn1 {
+    text-align: start;
+    
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    
+    gap: 10px;
+    left: -22%;
+    bottom: 15%;
+    
+    background: transparent;
+    color: white;
+    font-size: 15px;
+}
+
+.btn-normal-text{
+    color: white;
+    font-weight: 200;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    opacity: 0.5;
+}
+.special-button h1{
+    font-weight: 700;
+    font-size: 1.9em;
+}
+/*.yticon{
+    position: absolute;
+    left: 16%;
+    bottom: 39.7%;
+}*/
+
+.fbanner-btn2 {
+
+    left: 62.5%;
+    bottom: 65%;
+    
+    background: transparent;
+    color: white;
+    font-size: 15px;
+    text-align: start;
+    padding-left: 15px;
+}
+
+.red-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    background-color: rgb(255, 102, 0);
+    border-radius: 100%;
+
+    width: 30px;
+    height: 30px;
+
+}
+
+.navbar {
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    font-style: italic;
+    font-size: 2em;
+}
+
+.navbar ul {
+    padding: 2px;
+    border: 1px solid rgba(128, 128, 128, 0.271);
+    border-radius: 30px;
+    justify-content: space-between;
+    align-items: center;
+    width: 404px;
+    display: flex;
+    list-style: none;
+
+
+}
+
+.navbar ul li {
+    padding: 10px 20px;
+}
+
+.navbar ul li:hover {
+    background-color: rgb(255, 102, 0);
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.navbar ul a {
+
+    color: white;
+    text-decoration: none;
+
+}
+
+.first-banner-contents {
+    display: flex;
+
+    justify-content: center;
+    gap: 10px;
+}
+
+.texts {
+    margin-top: 80px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.texts h1 {
+    width: 82%;
+    font-size: 4em;
+
+}
+
+.texts p {
+    width: 80%;
+
+}
+
+.first-banner-btn {
+    display: flex;
+    gap: 20px;
+
+}
+
+.first-banner-btn button {
+    width: 170px;
+    height: 45px;
+    border-radius: 50px;
+    border: 1px solid white;
+    color: white;
+    /*background-color: rgb(255, 102, 0);*/
+    background-color: transparent;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+.first-banner-btn button:hover {
+    border: 1px solid rgb(255, 102, 0);
+    background-color: rgb(255, 102, 0);
+}
+
+
+
+.change-habits {
+    width: 82%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    margin-bottom: 110px;
+}
+
+.change-habits img {
+
+
+    border: none;
+    border-radius: 100%;
+}
+
+.change-habits-header {
+    width: 65%;
+    margin: auto;
+
+
+}
+
+.change-habits-contents {
+
+    margin-top: 50px;
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.change-habits-contents img {
+width: 60%;
+
+
+}
+.change-habits-header h1{
+
+    font-size: 3em;
+    
+}
+
+.change-habits h1,
+p {
+    margin: 15px 0;
+}
+
+.change-habits p {
+    font-size: 0.9em;
+    color: white;
+}
+
+.run-extra-mile {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.524);
+    width: calc(82% - 40px);
+    height: fit-content;
+    margin: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.run-extra-mile-img {
+    background-image: url('./images/run.jpg');
+    background-position-x: 70%;
+    background-position-y: 30%;
+    border-radius: 14px;
+    background-size: 300%;
+    width: 35%;
+    height: 44vh;
+    background-repeat: no-repeat;
+    backdrop-filter: contrast(100%);
+    
+    
+}
+
+.run-extra-mile-header {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    width: 45%;
+    height: 50%;
+
+}
+.run-extra-mile-header p{
+    margin: 0 0 20px 0;
+}
+
+.run-extra-mile h1 {
+    width: 100%;
+    font-size: 3em;
+}
+
+.run-extra-mile button {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+
+}
+
+.run-extra-mile button:hover {
+    border: 1px solid rgb(255, 102, 0);
+    background-color: rgb(255, 102, 0);
+}
+
+.bmi-calc {
+    color: white;
+    margin-bottom: 100px;
+}
+
+.bmi-calc-color {
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.34);
+
+}
+
+.bmi-calc-size {
+    padding: 80px 0;
+    width: 82%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.bmi-calc-header {
+    width: 55%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.bmi-calc-header h1 {
+    font-size: 3em;
+}
+
+.chart {
+    width: 40%;
+    
+    
+
+}
+.bmi-form{
+    width: 60%;
+
+    height: 100%;
+    
+}
+
+.chart table {
+    border-collapse: collapse;
+    width: 80%;
+   
+    
+}
+
+.chart td,
+th {
+    
+    color: rgba(255, 255, 255, 0.29);
+    
+    border: 1px solid rgba(255, 255, 255, 0.163);
+    padding: 10px 15px;
+}
+.chart td{
+    font-weight: 300;
+}
+
+.chart th {
+    font-size: 1em;
+    text-align: start;
+    color: white;
+    font-weight: 600;
+}
+
+.chart h1 {
+    margin-bottom: 50px;
+}
+
+.will-do-later {
+    background-color: rgba(255, 0, 0, 0.23);
+    height: 250px;
+}
+.form-box{
+    
+    padding: 15px 0;
+    display: flex;
+    height: 100%;
+    gap: 5px;
+    flex-direction: column;
+    
+   
+    
+}
+
+.form-doublebox{
+    display: flex;
+    gap: 10px;
+    
+}
+.form-doublebox input{
+    width: 50%;
+    
+}
+
+input{
+    padding: 5px 20px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    background-color: rgba(128, 128, 128, 0.313);
+    color: white;
+}
+input::placeholder{
+    color: white;
+    opacity: 0.7;
+    font-size: 1.1em;
+    font-weight: 200;
+}
+
+.bmi-form button {
+    width: 180px;
+    height: 45px;
+    margin-top: 10px;
+    background-color: rgb(255, 102, 0);
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1em;
+    border: none;
+    border-radius: 30px;
+}
+
+.meet-our-team {
+    color: white;
+    width: 82%;
+    margin: auto;
+}
+
+.meet-our-team-header {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.meet-our-team-header h1{
+    font-size: 3em;
+}
+
+.members {
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.529);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px;
+    padding: 20px;
+    margin: auto;
+}
+
+.rad {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 8px;
+    gap: 0;
+}
+
+.rad p {
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin: 0;
+    margin-bottom: 10px;
+    opacity: 0.4;
+}
+
+.rad h1 {
+    font-weight: 600;
+    font-size: 1.3em;
+    margin: 0;
+}
+
+.meet-1 {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.497), rgba(0, 0, 0, 0.497)), url('./images/trainer1.png');
+    background-position: top;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    height: 100%;
+    margin: auto;
+}
+
+.meet-2 {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.497), rgba(0, 0, 0, 0.497)), url('./images/trainer2.png');
+    background-position: center;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    height: 100%;
+    margin: auto;
+}
+
+.meet-3 {
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.497), rgba(0, 0, 0, 0.497)), url('./images/trainer3.png');
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    
+}
+
+.meet-4 {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.497), rgba(0, 0, 0, 0.497)), url('./images/trainer4.png');
+    background-position: top;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    height: 100%;
+    margin: auto;
+}
+
+.meet-5 {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.497), rgba(0, 0, 0, 0.497)), url('./images/trainer5.png');
+    background-position: center;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    height: 250px;
+    margin: auto;
+}
+
+.meet-6 {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.497), rgba(0, 0, 0, 0.497)), url('./images/trainer6.png');
+    background-position: center;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    height: 100%;
+    margin: auto;
+}
+
+
+.meet-our-team {
+    margin-bottom: 100px;
+}
+
+footer {
+    padding: 40px 5px 10px 5px;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.483);
+}
+
+.foot {
+    width: 82%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-head {
+
+    width: 40%;
+}
+.foot-head h1{
+    font-size: 4em;
+    font-style: italic;
+}
+
+footer h1 {
+    
+    margin-bottom: 25px;
+}
+
+.foot-fsec {
+    font-size: 1rem;
+}
+
+.foot-ssec {
+    font-size: 1rem;
+}
+
+footer li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+hr {
+
+    width: 82%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.foot-last {
+    text-align: center;
+}
+
+.f-s {
+    display: flex;
+    gap: 110px;
+}
+
+
+@media screen and (min-width:780px) and (max-width:990px) {
+
+    
+    
+    .navbar img{
+        display: block;
+        cursor: pointer;
+    }
+    
+
+
+    .navbar {
+        margin-bottom: 20px;
+    }
+
+    .navbar ul{
+        display: none;
+    }
+
+    .fbanner-btn1 {
+        left: -5%;
+        bottom: 28%;
+    }
+
+    .fbanner-btn2 {
+        
+        left: 56%;
+        bottom: 74%;
+    }
+
+    .change-habits-contents {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .change-habits-header h1{
+        font-size: 2.8em;
+    }
+    .change-habits-header{
+        width: 100%;
+    }
+
+
+    .members {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3,1fr);
+    }
+    
+
+    .first-banner-contents {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first-banner-btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .first-banner-btn button {
+        width: 40%;
+    }
+
+    .texts {
+        
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .texts h1 {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .texts p {
+        width: 95%;
+        margin-bottom: 20px;
+
+    }
+
+    .run-extra-mile {
+        align-items: start;
+        flex-direction: column;
+        padding: 20px 35px;
+    }
+
+    .run-extra-mile-header {
+        text-align: start;
+        
+        width: 90%;
+        margin: 20px 0;
+    }
+    .run-extra-mile h1 {
+        width: 70%;
+        font-size: 3em;
+    }
+
+    .run-extra-mile-img {
+        width: 100%;
+        background-size: 150%;
+        margin: 15px 0;
+        background-position-x: 80%;
+        
+        
+    }
+
+    .bmi-calc-size {
+        flex-direction: column;
+    }
+
+    .chart {
+        width: 70%;
+        margin-bottom: 20px;
+    }
+    .bmi-form{
+        width: 100%;
+    
+        height: 100%;
+        
+    }
+
+    .meet-our-team-header{
+        width: 100%;
+    }
+    .foot {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .foot-head {
+        width: 90%;
+    }
+
+    .f-s {
+        gap: 140px;
+    }
+    
+
+
+
+}
+
+
+@media screen and (min-width:576px) and (max-width:780px) {
+
+    
+    .navbar img{
+        display: block;
+        cursor: pointer;
+    }
+
+
+    .navbar ul {
+        display: none;
+    }
+
+    .navbar {
+        margin-bottom: 20px;
+    }
+
+    .texts {
+        margin-bottom: 50px;
+    }
+
+
+    .fbanner-btn1 {
+        
+        left: -5%;
+        bottom: 28%;
+    }
+
+    .fbanner-btn2 {
+        
+        left: 56%;
+        bottom: 74%;
+    }
+
+    .first-banner-btn {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .first-banner-btn button {
+        width: 40%;
+    }
+
+    .change-habits-contents {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .change-habits-header h1{
+        font-size: 2.8em;
+    }
+    .change-habits-header{
+        width: 100%;
+    }
+
+    .bmi-form{
+        width: 100%;
+    
+        height: 100%;
+        
+    }
+
+    .members {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3,1fr);
+    }
+
+    .first-banner-contents {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .texts {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .texts h1 {
+        width: 95%;
+        margin-bottom: 15px;
+    }
+
+    .texts p {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .run-extra-mile {
+        flex-direction: column;
+        padding: 20px 35px;
+    }
+
+    .run-extra-mile-header {
+        text-align: start;
+        width: 100%;
+        margin: 15px 0;
+        
+    }
+
+    .run-extra-mile-img {
+        width: 100%;
+        background-size: 150%;
+        margin: 15px 0;
+        background-position-x: 80%;
+        
+        
+    }
+    .run-extra-mile h1 {
+        text-align: start;
+        padding-left: 0;
+        width: 60%;
+        font-size: 3em;
+    }
+
+    .bmi-calc-size {
+        flex-direction: column;
+    }
+    .bmi-calc-header{
+
+        margin: auto;
+        width: 82%;
+    }
+
+    .chart {
+        width: 100%;
+        margin-bottom: 20px;
+        
+    }
+
+
+    .foot {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .foot-head {
+        width: 90%;
+    }
+
+    .f-s {
+        gap: 140px;
+    }
+
+}
+
+
+@media screen and (max-width: 576px) {
+    
+
+    .navbar img{
+        display: block;
+        cursor: pointer;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    .navbar {
+        margin-bottom: 20px;
+    }
+
+
+    .fbanner-btn1 {
+        left: 5%;
+        bottom: 47%;
+    }
+
+    .fbanner-btn2 {
+
+        left: 55%;
+        bottom: 78%;
+    }
+
+    .change-habits-contents {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .change-habits-header{
+        width: 100%;
+    }
+
+    .change-habits-header h1{
+        font-size: 2.8em;
+    }
+
+    .bmi-form{
+        width: 100%;
+    
+        height: 100%;
+        
+    }
+    .chart{
+        width: 100%;
+
+    }
+    
+    .members {
+        grid-template-columns: repeat(1, 1fr);
+        background-position: c;
+    }
+    .meet-our-team-header{
+        width: 100%;
+    }
+    .meet-our-team-header h1{
+        font-size: 2.8em;
+    }
+
+    .meet-1,
+    .meet-2,
+    .meet-3,
+    .meet-4,
+    .meet-5,
+    .meet-6 {
+        background-position: top;
+        height: 300px;
+        gap: 30px;
+
+    }
+    .run-extra-mile-header{
+        width: 100%;
+    }
+    .run-extra-mile h1{
+        font-size: 2.8em;
+    }
+    
+
+    .meet-5{
+        background-position: center;
+    }
+    
+
+    .first-banner-contents {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .texts {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .texts h1 {
+        width: 100%;
+
+    }
+
+    .texts p {
+        width: 100%;
+
+    }
+
+    .first-banner-btn {
+        width: 90%;
+    }
+
+    .first-banner-btn button {
+        width: 50%;
+    }
+
+    .run-extra-mile {
+        flex-direction: column;
+        padding: 20px 35px;
+    }
+
+    .run-extra-mile-header {
+        text-align: start;
+        
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .run-extra-mile-img {
+        width: 100%;
+        background-size: 180%;
+        
+        
+        
+        
+    }
+    .run-extra-mile-header h1{
+        font-size: 2.8em;
+    }
+
+    .bmi-calc-size {
+        flex-direction: column;
+    }
+    .bmi-calc-header{
+
+        margin: auto;
+        width: 82%;
+    }
+
+    .chart {
+        width: 100%;
+        margin-bottom: 20px;
+        
+    }
+   /* table th,td{
+        padding: 10px 40px;
+        
+    
+    }*/
+
+    .foot {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .foot-head {
+        width: 100%;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    .f-s {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .rad{
+        gap: 0;
+    }
+
+
+}
