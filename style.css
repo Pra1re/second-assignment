@@ -452,11 +452,33 @@ th {
 .form-doublebox{
     display: flex;
     gap: 10px;
+    justify-content: space-between;
     
 }
 .form-doublebox input{
     width: 50%;
     
+}
+#half{
+    width: 50%;
+    
+}
+.arrow{
+    position: relative;
+    
+}
+select{
+    font-size: 1em;
+    opacity: 0.7;
+    padding: 5px 15px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.438);
+    color: white;
+    box-sizing: border-box;
+    height: 55px;
+    font-weight: 200;
 }
 
 input{
@@ -464,9 +486,10 @@ input{
     margin-bottom: 5px;
     border-radius: 10px;
     border: none;
-    height: 40px;
     background-color: rgba(128, 128, 128, 0.313);
     color: white;
+    box-sizing: border-box;
+    height: 55px;
 }
 input::placeholder{
     color: white;
@@ -614,7 +637,6 @@ margin-bottom: 100px;
 .meet-1 {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.497), rgba(0, 0, 0, 0.497)), url('./images/trainer1.png');
     background-position: top;
-
     background-repeat: no-repeat;
     background-size: cover;
     width: 95%;
@@ -625,7 +647,6 @@ margin-bottom: 100px;
 .meet-2 {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.497), rgba(0, 0, 0, 0.497)), url('./images/trainer2.png');
     background-position: center;
-
     background-repeat: no-repeat;
     background-size: cover;
     width: 95%;
@@ -635,7 +656,6 @@ margin-bottom: 100px;
 
 .meet-3 {
     background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.497), rgba(0, 0, 0, 0.497)), url('./images/trainer3.png');
-    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -862,6 +882,14 @@ hr {
         height: 100%;
         
     }
+    .plans{
+        width: 90%;
+    }
+
+    .card1,
+    .card2{
+        width: 45%;
+    }
 
     .meet-our-team-header{
         width: 100%;
@@ -1016,6 +1044,18 @@ hr {
     }
 
 
+
+
+    .plans-card{
+        align-items: center;
+        flex-direction: column;
+    }
+    .card1,
+    .card2{
+        width: 70%;
+    }
+
+
     .foot {
         flex-direction: column;
         gap: 30px;
@@ -1082,6 +1122,18 @@ hr {
         width: 100%;
 
     }
+
+
+
+    .plans-card{
+        align-items: center;
+        flex-direction: column;
+    }
+    .card1,
+    .card2{
+        width: 80%;
+    }
+
     
     .members {
         grid-template-columns: repeat(1, 1fr);
