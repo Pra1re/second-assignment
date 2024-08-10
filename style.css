@@ -267,7 +267,6 @@ body {
 
 }
 
-
 .change-habits-contents {
 
     margin-top: 50px;
@@ -278,7 +277,7 @@ body {
 
 }
 .change-habits-contents img {
-width: 60%;
+width: 160px;
 
 
 }
@@ -297,9 +296,7 @@ p {
     font-size: 0.9em;
     color: white;
 }
-.error h1{
-    margin-top: 0;
-}
+
 .run-extra-mile {
     padding: 20px;
     border-radius: 10px;
@@ -846,9 +843,7 @@ hr {
         margin-bottom: 20px;
 
     }
-.error h1{
-    margin-top: 15px;
-}
+
     .run-extra-mile {
         align-items: start;
         flex-direction: column;
@@ -975,12 +970,6 @@ hr {
         width: 100%;
     }
 
-    .error h1{
-        margin-top: 18px;
-    }
-    .error{
-        margin-top: 18px;
-    }
     .bmi-form{
         width: 100%;
     
