@@ -560,7 +560,7 @@ margin-bottom: 100px;
     background-color: #424242;
     width: 40%;
     padding: 30px 0;
-    color: #D1D1D1;
+    color: white;
     
 }
 .card2{
@@ -1124,6 +1124,9 @@ hr {
     }
 
 
+    .plans{
+        width: 90%;
+    }
 
     .plans-card{
         align-items: center;
@@ -1131,7 +1134,7 @@ hr {
     }
     .card1,
     .card2{
-        width: 80%;
+        width: 100%;
     }
 
     
