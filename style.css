@@ -487,7 +487,7 @@ input{
     border-radius: 10px;
     border: none;
     background-color: rgba(128, 128, 128, 0.313);
-    color: white;
+    color: rgba(255, 255, 255, 0.534);
     box-sizing: border-box;
     height: 55px;
 }
@@ -552,6 +552,9 @@ margin-bottom: 100px;
 }
 .plans-header{
     margin-bottom: 50px;
+}
+.plans-header h1{
+    
     font-size: 3em;
 }
 .card1{
