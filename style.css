@@ -50,6 +50,11 @@ body {
     padding-top: 40px;
 }
 */
+@font-face {
+    font-family: miama;
+    src: url(Miama.ttf);
+}
+
 .navbar img{
     display: none;
 }
@@ -212,12 +217,18 @@ body {
 .texts h1 {
     width: 82%;
     font-size: 4em;
+    line-height: 75px;
 
 }
-
+.mima{
+    font-family: miama;
+    font-weight: 400;
+    font-size: 2em;
+}
 .texts p {
     width: 80%;
 
+   
 }
 
 .first-banner-btn {
