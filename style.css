@@ -23,7 +23,8 @@
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-p{
+
+p {
     opacity: 0.6;
     font-weight: 400;
 }
@@ -55,9 +56,10 @@ body {
     src: url(Miama.ttf);
 }
 
-.navbar img{
+.navbar img {
     display: none;
 }
+
 .fbanner {
     background: linear-gradient(180deg, #111111 0%, rgba(196, 195, 195, 0) 100%);
 
@@ -90,7 +92,7 @@ body {
     position: absolute;
     border-radius: 8px;
     border: 1px solid rgba(128, 128, 128, 0.196);
-    
+
     width: 160px;
     height: 80px;
 
@@ -99,31 +101,33 @@ body {
 
 .fbanner-btn1 {
     text-align: start;
-    
+
     display: flex;
     align-items: center;
     padding-left: 15px;
-    
+
     gap: 10px;
     left: -22%;
     bottom: 15%;
-    
+
     background: transparent;
     color: white;
     font-size: 15px;
 }
 
-.btn-normal-text{
+.btn-normal-text {
     color: white;
     font-weight: 200;
     font-size: 0.9em;
     letter-spacing: 1px;
     opacity: 0.5;
 }
-.special-button h1{
+
+.special-button h1 {
     font-weight: 700;
     font-size: 1.9em;
 }
+
 /*.yticon{
     position: absolute;
     left: 16%;
@@ -134,7 +138,7 @@ body {
 
     left: 62.5%;
     bottom: 65%;
-    
+
     background: transparent;
     color: white;
     font-size: 15px;
@@ -215,20 +219,23 @@ body {
 }
 
 .texts h1 {
+    
     width: 82%;
     font-size: 4em;
     line-height: 75px;
 
 }
-.mima{
+
+.mima {
     font-family: miama;
     font-weight: 400;
     font-size: 2em;
 }
+
 .texts p {
     width: 80%;
 
-   
+
 }
 
 .first-banner-btn {
@@ -287,15 +294,17 @@ body {
     align-items: center;
 
 }
+
 .change-habits-contents img {
-width: 160px;
+    width: 160px;
 
 
 }
-.change-habits-header h1{
+
+.change-habits-header h1 {
 
     font-size: 3em;
-    
+
 }
 
 .change-habits h1,
@@ -332,8 +341,8 @@ p {
     height: 44vh;
     background-repeat: no-repeat;
     backdrop-filter: contrast(100%);
-    
-    
+
+
 }
 
 .run-extra-mile-header {
@@ -346,7 +355,8 @@ p {
     height: 50%;
 
 }
-.run-extra-mile-header p{
+
+.run-extra-mile-header p {
     margin: 0 0 20px 0;
 }
 
@@ -403,33 +413,35 @@ p {
 
 .chart {
     width: 40%;
-    
-    
+
+
 
 }
-.bmi-form{
+
+.bmi-form {
     width: 60%;
 
     height: 100%;
-    
+
 }
 
 .chart table {
     border-collapse: collapse;
     width: 80%;
-   
-    
+
+
 }
 
 .chart td,
 th {
-    
+
     color: rgba(255, 255, 255, 0.29);
-    
+
     border: 1px solid rgba(255, 255, 255, 0.163);
     padding: 10px 15px;
 }
-.chart td{
+
+.chart td {
     font-weight: 300;
 }
 
@@ -448,37 +460,43 @@ th {
     background-color: rgba(255, 0, 0, 0.23);
     height: 250px;
 }
-.form-box{
-    
+
+.form-box {
+
     padding: 15px 0;
     display: flex;
     height: 100%;
     gap: 5px;
     flex-direction: column;
-    
-   
-    
+
+
+
 }
 
-.form-doublebox{
+.form-doublebox {
     display: flex;
     gap: 10px;
     justify-content: space-between;
-    
+
 }
-.form-doublebox input{
+
+.form-doublebox input {
     width: 50%;
-    
+
 }
-#half{
+
+#half {
     width: 50%;
-    
+
 }
-.arrow{
+
+.arrow {
     position: relative;
-    
+
 }
-select{
+
+select {
+    appearance: none;
     font-size: 1em;
     opacity: 0.7;
     padding: 5px 15px;
@@ -491,30 +509,84 @@ select{
     height: 55px;
     font-weight: 200;
 }
+.sex{
+    position: relative;
+}
+.dropdown-icon-container {
+    position: absolute;
+    left: 92%;
+    top: 8%;
+    background-color: rgba(128, 128, 128, 0);
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px; /* Optional: to make the background container slightly rounded */
+}
 
-input{
-    padding: 5px 20px;
+.dropdown-icon {
+    opacity: 0.7;
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid white; /* The icon itself is white */
+    display: inline-block;
+}
+
+.act-factor{
+    position: relative;
+    width: 100%;
+}
+.select2{
+    width: 100%;
+    position: relative;
+}
+.container {
+    left: 92%;
+    top: 8%;
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0);
+    padding: 10px;
+    display: inline-block; 
+}
+
+.icon {
+    opacity: 0.7;
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid white;
+    display: inline-block;
+}
+
+
+input {
+    padding: 5px 18px;
     margin-bottom: 5px;
     border-radius: 10px;
     border: none;
-    background-color: rgba(128, 128, 128, 0.313);
-    color: rgba(255, 255, 255, 0.534);
+    background-color: rgba(128, 128, 128, 0.280);
+    color: rgba(255, 255, 255, 0.698);
     box-sizing: border-box;
     height: 55px;
 }
-input:focus{
+
+input:focus {
     border: none;
     outline: none;
 }
-select:focus{
+
+select:focus {
     outline: none;
 }
-option{
+
+option {
     color: black;
 }
-input::placeholder{
+
+input::placeholder {
     color: white;
-    opacity: 0.7;
+    opacity: 0.6;
     font-size: 1.1em;
     font-weight: 200;
 }
@@ -532,26 +604,28 @@ input::placeholder{
     border-radius: 30px;
 }
 
-.plans{
+.plans {
     text-align: center;
     width: 82%;
-    margin:auto;
-color: white;
-margin-bottom: 100px;
+    margin: auto;
+    color: white;
+    margin-bottom: 100px;
 
 
 }
-.plans ul{
+
+.plans ul {
     position: relative;
     text-align: start;
     padding-left: 60px;
     display: flex;
     flex-direction: column;
-    list-style:none;
+    list-style: none;
     margin: 30px 0 50px 0;
     gap: 18px;
 }
-.plans button{
+
+.plans button {
     padding: 15px 50px;
     border: none;
     border-radius: 26px;
@@ -563,38 +637,44 @@ margin-bottom: 100px;
     letter-spacing: 0.8px;
 }
 
-.chk::before{
+.chk::before {
     position: absolute;
     content: "\2713";
     left: 10%;
 }
-.benefits{
+
+.benefits {
     opacity: 0.6;
 }
-.plans-header{
+
+.plans-header {
     margin-bottom: 50px;
 }
-.plans-header h1{
-    
+
+.plans-header h1 {
+
     font-size: 3em;
 }
-.card1{
+
+.card1 {
     font-weight: 600;
-    
+
     background-color: #424242;
     width: 40%;
     padding: 30px 0;
     color: white;
-    
+
 }
-.card2{
+
+.card2 {
     font-weight: 600;
     color: FFFFFF;
     background-color: #81641c;
     width: 40%;
     padding: 30px 0;
 }
-.plans-card{
+
+.plans-card {
     display: flex;
     justify-content: space-around;
     gap: 20px;
@@ -619,7 +699,8 @@ margin-bottom: 100px;
     text-align: center;
     margin-bottom: 60px;
 }
-.meet-our-team-header h1{
+
+.meet-our-team-header h1 {
     font-size: 3em;
 }
 
@@ -628,7 +709,7 @@ margin-bottom: 100px;
     background-color: rgba(128, 128, 128, 0.529);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2,1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 10px;
     padding: 20px;
     margin: auto;
@@ -679,14 +760,14 @@ margin-bottom: 100px;
 }
 
 .meet-3 {
-    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.497), rgba(0, 0, 0, 0.497)), url('./images/trainer3.png');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.497), rgba(0, 0, 0, 0.497)), url('./images/trainer3.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 95%;
     height: 100%;
     margin: auto;
-    
+
 }
 
 .meet-4 {
@@ -744,13 +825,14 @@ footer {
 
     width: 40%;
 }
-.foot-head h1{
+
+.foot-head h1 {
     font-size: 4em;
     font-style: italic;
 }
 
 footer h1 {
-    
+
     margin-bottom: 25px;
 }
 
@@ -778,7 +860,8 @@ hr {
 .foot-last {
     text-align: center;
 }
-.foot li{
+
+.foot li {
     cursor: pointer;
 }
 
@@ -790,20 +873,20 @@ hr {
 
 @media screen and (min-width:780px) and (max-width:990px) {
 
-    
-    
-    .navbar img{
+
+
+    .navbar img {
         display: block;
         cursor: pointer;
     }
-    
+
 
 
     .navbar {
         margin-bottom: 20px;
     }
 
-    .navbar ul{
+    .navbar ul {
         display: none;
     }
 
@@ -813,7 +896,7 @@ hr {
     }
 
     .fbanner-btn2 {
-        
+
         left: 56%;
         bottom: 74%;
     }
@@ -822,19 +905,21 @@ hr {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-    .change-habits-header h1{
+
+    .change-habits-header h1 {
         font-size: 2.8em;
     }
-    .change-habits-header{
+
+    .change-habits-header {
         width: 100%;
     }
 
 
     .members {
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3,1fr);
+        grid-template-rows: repeat(3, 1fr);
     }
-    
+
 
     .first-banner-contents {
         flex-direction: column;
@@ -852,7 +937,7 @@ hr {
     }
 
     .texts {
-        
+
         margin-top: 50px;
         margin-bottom: 30px;
     }
@@ -876,10 +961,11 @@ hr {
 
     .run-extra-mile-header {
         text-align: start;
-        
+
         width: 90%;
         margin: 20px 0;
     }
+
     .run-extra-mile h1 {
         width: 70%;
         font-size: 3em;
@@ -891,8 +977,8 @@ hr {
         background-size: 150%;
         margin: 15px 0;
         background-position-x: 80%;
-        
-        
+
+
     }
 
     .bmi-calc-size {
@@ -903,24 +989,27 @@ hr {
         width: 70%;
         margin-bottom: 20px;
     }
-    .bmi-form{
+
+    .bmi-form {
         width: 100%;
-    
+
         height: 100%;
-        
+
     }
-    .plans{
+
+    .plans {
         width: 90%;
     }
 
     .card1,
-    .card2{
+    .card2 {
         width: 45%;
     }
 
-    .meet-our-team-header{
+    .meet-our-team-header {
         width: 100%;
     }
+
     .foot {
         flex-direction: column;
         gap: 30px;
@@ -933,7 +1022,7 @@ hr {
     .f-s {
         gap: 140px;
     }
-    
+
 
 
 
@@ -942,8 +1031,8 @@ hr {
 
 @media screen and (min-width:576px) and (max-width:780px) {
 
-    
-    .navbar img{
+
+    .navbar img {
         display: block;
         cursor: pointer;
     }
@@ -963,13 +1052,13 @@ hr {
 
 
     .fbanner-btn1 {
-        
+
         left: -5%;
         bottom: 28%;
     }
 
     .fbanner-btn2 {
-        
+
         left: 56%;
         bottom: 74%;
     }
@@ -987,23 +1076,25 @@ hr {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-    .change-habits-header h1{
+
+    .change-habits-header h1 {
         font-size: 2.8em;
     }
-    .change-habits-header{
+
+    .change-habits-header {
         width: 100%;
     }
 
-    .bmi-form{
+    .bmi-form {
         width: 100%;
-    
+
         height: 100%;
-        
+
     }
 
     .members {
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3,1fr);
+        grid-template-rows: repeat(3, 1fr);
     }
 
     .first-banner-contents {
@@ -1036,7 +1127,7 @@ hr {
         text-align: start;
         width: 100%;
         margin: 15px 0;
-        
+
     }
 
     .run-extra-mile-img {
@@ -1045,9 +1136,10 @@ hr {
         background-size: 150%;
         margin: 15px 0;
         background-position-x: 80%;
-        
-        
+
+
     }
+
     .run-extra-mile h1 {
         text-align: start;
         padding-left: 0;
@@ -1058,7 +1150,8 @@ hr {
     .bmi-calc-size {
         flex-direction: column;
     }
-    .bmi-calc-header{
+
+    .bmi-calc-header {
 
         margin: auto;
         width: 82%;
@@ -1067,22 +1160,24 @@ hr {
     .chart {
         width: 100%;
         margin-bottom: 20px;
-        
+
     }
 
 
 
 
-    .plans-card{
+    .plans-card {
         align-items: center;
         flex-direction: column;
     }
+
     .card1,
-    .card2{
+    .card2 {
         width: 90%;
     }
-    .chk::before{
-        
+
+    .chk::before {
+
         left: 7%;
     }
 
@@ -1104,9 +1199,9 @@ hr {
 
 
 @media screen and (max-width: 576px) {
-    
 
-    .navbar img{
+
+    .navbar img {
         display: block;
         cursor: pointer;
     }
@@ -1135,52 +1230,57 @@ hr {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
-    .change-habits-header{
+
+    .change-habits-header {
         width: 100%;
     }
 
-    .change-habits-header h1{
+    .change-habits-header h1 {
         font-size: 2.8em;
     }
 
-    .bmi-form{
+    .bmi-form {
         width: 100%;
-    
+
         height: 100%;
-        
+
     }
-    .chart{
+
+    .chart {
         width: 100%;
 
     }
 
 
-    .plans{
+    .plans {
         width: 90%;
     }
 
-    .plans-card{
+    .plans-card {
         align-items: center;
         flex-direction: column;
     }
+
     .card1,
-    .card2{
+    .card2 {
         width: 100%;
     }
 
-    .chk::before{
-        
+    .chk::before {
+
         left: 8%;
     }
-    
+
     .members {
         grid-template-columns: repeat(1, 1fr);
         background-position: c;
     }
-    .meet-our-team-header{
+
+    .meet-our-team-header {
         width: 100%;
     }
-    .meet-our-team-header h1{
+
+    .meet-our-team-header h1 {
         font-size: 2.8em;
     }
 
@@ -1195,18 +1295,20 @@ hr {
         gap: 30px;
 
     }
-    .run-extra-mile-header{
+
+    .run-extra-mile-header {
         width: 100%;
     }
-    .run-extra-mile h1{
+
+    .run-extra-mile h1 {
         font-size: 2.8em;
     }
-    
 
-    .meet-5{
+
+    .meet-5 {
         background-position: center;
     }
-    
+
 
     .first-banner-contents {
         flex-direction: column;
@@ -1245,7 +1347,7 @@ hr {
 
     .run-extra-mile-header {
         text-align: start;
-        
+
         width: 100%;
         margin-bottom: 20px;
     }
@@ -1253,19 +1355,21 @@ hr {
     .run-extra-mile-img {
         width: 100%;
         background-size: 180%;
-        
-        
-        
-        
+
+
+
+
     }
-    .run-extra-mile-header h1{
+
+    .run-extra-mile-header h1 {
         font-size: 2.8em;
     }
 
     .bmi-calc-size {
         flex-direction: column;
     }
-    .bmi-calc-header{
+
+    .bmi-calc-header {
 
         margin: auto;
         width: 82%;
@@ -1274,9 +1378,10 @@ hr {
     .chart {
         width: 100%;
         margin-bottom: 20px;
-        
+
     }
-   /* table th,td{
+
+    /* table th,td{
         padding: 10px 40px;
         
     
@@ -1299,7 +1404,8 @@ hr {
         flex-direction: column;
         gap: 50px;
     }
-    .rad{
+
+    .rad {
         gap: 0;
     }
 
