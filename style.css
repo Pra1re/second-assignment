@@ -1326,9 +1326,12 @@ hr {
 
     .texts h1 {
 
-        font-size: 2.8em;
-        width: 90%;
+        font-size: 3em;
+        width: 86%;
 
+    }
+    .br{
+        display: none;
     }
 
     .texts p {
