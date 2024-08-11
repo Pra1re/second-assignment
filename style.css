@@ -219,7 +219,7 @@ body {
 }
 
 .texts h1 {
-    width: 78%;
+    width: 100%;
     font-size: 4em;
     line-height: 75px;
 
@@ -1320,11 +1320,14 @@ hr {
     }
 
     .texts {
+        background-color: red;
         margin-top: 50px;
         margin-bottom: 50px;
     }
 
     .texts h1 {
+
+        font-size: 3em;
         width: 100%;
 
     }
