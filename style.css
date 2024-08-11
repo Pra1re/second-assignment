@@ -219,7 +219,7 @@ body {
 }
 
 .texts h1 {
-    width: 100%;
+    width: 90%;
     font-size: 4em;
     line-height: 75px;
 
@@ -942,8 +942,9 @@ hr {
     }
 
     .texts h1 {
-        width: 80%;
+        width: 90%;
         margin-bottom: 10px;
+        
     }
 
     .texts p {
@@ -1328,6 +1329,8 @@ hr {
 
         font-size: 3em;
         width: 86%;
+        line-height: 60px;
+        margin-bottom: 0;
 
     }
     .br{
@@ -1335,7 +1338,7 @@ hr {
     }
 
     .texts p {
-        width: 90%;
+        width: 100%;
 
     }
 
