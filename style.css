@@ -219,8 +219,7 @@ body {
 }
 
 .texts h1 {
-    
-    width: 82%;
+    width: 78%;
     font-size: 4em;
     line-height: 75px;
 
@@ -1199,8 +1198,11 @@ hr {
 
 
 @media screen and (max-width: 576px) {
-
-
+    .container,
+    .dropdown-icon-container
+    {
+        left: 90%;
+    }
     .navbar img {
         display: block;
         cursor: pointer;
