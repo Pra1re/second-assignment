@@ -4,9 +4,7 @@
 .azeret-mono {
     font-family: "Azeret Mono", monospace;
 }
-body, html {
-    overflow-x: hidden;
-}
+
 
 .calligraffitti-regular {
     font-family: "Calligraffitti", cursive;
@@ -1204,9 +1202,6 @@ hr {
 @media screen and (max-width: 576px) {
     .br{
         display: none;
-    }
-    .texts{
-        background-color: red;
     }
     .container,
     .dropdown-icon-container
